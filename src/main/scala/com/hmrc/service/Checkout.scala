@@ -1,7 +1,5 @@
 package com.hmrc.service
 
-import com.hmrc.model.Item
-
 class Checkout(itemList: List[Item]) {
 
   def totalShoppingCost = {
